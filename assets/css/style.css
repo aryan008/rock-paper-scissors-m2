@@ -146,6 +146,13 @@ button:hover {
     outline: none;
 }
 
+#btn--new--game, #btn--main--menu {
+    border: 2px solid #fff;
+    letter-spacing: 2px;
+    background-color: rgb(32, 32, 32); 
+    outline: none;
+}
+
 /*---Keyframes animation applied---*/
 @keyframes hero{
     100%{ transform: rotateY(360deg); }

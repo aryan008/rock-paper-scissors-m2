@@ -9,6 +9,7 @@ function incrementWinScore() {
 
     if (computerScore.innerHTML === gameChoice) {
         $("#overall-div").show().fadeOut();
+        // Trophy obtained at the following source: https://www.compart.com/en/unicode/U+1F44F
         $("#overall-winner").show().html(`
         Unlucky, the computer got to ${gameChoice} first...
         <br>

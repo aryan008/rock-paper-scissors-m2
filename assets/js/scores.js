@@ -11,6 +11,9 @@ function incrementWinScore() {
         $("#overall-div").show().fadeOut();
         $("#overall-winner").show().html(`
         Unlucky, the computer got to ${gameChoice} first...
+        <br>
+        <span class = "span-trophy">&#128079;&#127996;</span>
+        <br>
         `).fadeOut();
         $("#game-div").hide().delay().fadeIn();
         $("#btn--game--controls").hide().delay().fadeIn();

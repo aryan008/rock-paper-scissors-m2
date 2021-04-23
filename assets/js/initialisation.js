@@ -9,3 +9,4 @@ const computerScore = document.getElementById("cpu-score");
 const resetGame = document.getElementById("btn--new--game");
 var userScore = 0;
 var cpuScore = 0;
+var gameChoice = "";

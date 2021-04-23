@@ -22,6 +22,7 @@ function play(userHand) {
 
 function main() {
     $("#rockHand").on("click", function () {
+        audioHand();
         play("rock");
     });
 

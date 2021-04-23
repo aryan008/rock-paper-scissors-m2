@@ -48,8 +48,8 @@ section {
     outline: none;
 }
 
-.div--btn--play--heading,
-.div--btn--play--heading button {
+#div--btn--play--heading,
+#div--btn--play--heading button {
     font-size: 30px;
     border: 2px solid;
     box-shadow: 0px 0px 20px rgba(199, 126, 247, 0.877);
@@ -68,6 +68,15 @@ section {
     background: transparent;
     text-transform: uppercase;
     outline: none;
+}
+
+#div--entry--heading {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#div--entry--heading ul li span {
+    margin-left: 5px;
 }
 
 /*---Keyframes animation applied---*/

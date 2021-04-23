@@ -4,7 +4,7 @@ $(".game-number-button").click(function() {
 });
 
 $("#btn--play--click").click(function() {
-    $("#intro-div").fadeOut();
-    $("#picture-div").delay().fadeIn().fadeOut();
-    $("#play-div").delay().fadeIn();
+    $("#introduction-div").fadeOut(300);
+    $("#picture-div").delay(500).fadeIn(2000).fadeOut(2000);
+    $("#play-div").delay(5000).fadeIn(1000);
 });

@@ -180,6 +180,17 @@ button:hover {
     background-color: transparent;
 }
 
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    width: 33%;
+    margin-left: 33%;
+    margin-right:33%;
+    margin-bottom: 5vh;
+    font-size: 1.3rem;
+    border: 3px solid #fff;
+}
+
 /*---Keyframes animation applied---*/
 @keyframes hero{
     100%{ transform: rotateY(360deg); }

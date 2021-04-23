@@ -6,4 +6,13 @@ function incrementWinScore() {
         $("#player-score-text").classList.remove("green-flash");
         $("#player-score").classList.remove("green-flash");
     }, 500);
+
+    if (computerScore.innerHTML === gameChoice) {
+        $("#overall-div").show().fadeOut();
+        $("#overall-winner").show().html(`
+        Unlucky, the computer got to ${gameChoice} first...
+        `).fadeOut();
+        $("#game-div").hide().delay().fadeIn();
+        $("#btn--game--controls").hide().delay().fadeIn();
+    }
 }

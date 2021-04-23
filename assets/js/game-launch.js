@@ -9,3 +9,7 @@ $("#btn--play--click").click(function() {
     $("#play-div").delay(5000).fadeIn(1000);
     resetFunc();
 });
+
+$(".game-number-button").on("click", function(e) {
+    gameChoice = $(e.target)[0].id;
+});

@@ -15,8 +15,15 @@ section {
     text-align: center;
 }
 
+/*---Hover styling properties applied across the game---*/
+
 .href-link:hover {
     color: rgb(43, 107, 226);
+}
+
+button:hover {
+  opacity: .5;
+  transition: all 0.3s ease 0s;
 }
 
 /*---Introduction page styling---*/

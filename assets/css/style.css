@@ -14,3 +14,10 @@ section {
     font-family: "Lato", sans-serif;
     text-align: center;
 }
+
+/*---Introduction page styling---*/
+#introduction--div--heading {
+    font-size: 35px;
+    margin-top: 50px;
+    height: 12vh;
+}

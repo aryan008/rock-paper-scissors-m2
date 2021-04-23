@@ -3,7 +3,6 @@ const paperHand = document.getElementById("paperHand");
 const scissorsHand = document.getElementById("scissorsHand");
 const playButton = document.getElementById("div--btn--play--heading");
 
-const readLess = document.getElementById("btn--read--less");
 const resultText = document.getElementById("result-text-paragraph");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("cpu-score");

@@ -15,3 +15,7 @@ $("#btn--read--more").click(function() {
     Source: <a class = "href-link" href = "https://en.wikipedia.org/wiki/Rock_paper_scissors" target = "_blank">Wikipedia</a></p>
     `);
 });
+
+$("#btn--read--less").click(function() {
+    $("#history-text").remove();
+});

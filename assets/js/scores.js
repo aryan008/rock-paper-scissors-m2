@@ -7,7 +7,7 @@ function incrementWinScore() {
         $("#player-score").removeClass("green-flash");
     }, 500);
 
-    if ($("#player-score").innerHTML === gameChoice) {
+    if ($("#player-score").html() === gameChoice) {
         $("#overall-div").show().fadeOut(4000);
         // Trophy obtained at the following source: https://www.compart.com/en/unicode/U+1F3C6
         $("#overall-winner").show().html(`
@@ -32,7 +32,7 @@ function incrementLoseScore() {
         $("#cpu-score").removeClass("red-flash");
     }, 500);
 
-    if ($("#cpu-score").innerHTML === gameChoice) {
+    if ($("#cpu-score").html() === gameChoice) {
         $("#overall-div").show().fadeOut(4000);
         // Trophy obtained at the following source: https://www.compart.com/en/unicode/U+1F44F
         $("#overall-winner").show().html(`

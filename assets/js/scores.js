@@ -9,7 +9,7 @@ function incrementWinScore() {
 
     if ($("#player-score").innerHTML === gameChoice) {
         $("#overall-div").show().fadeOut(4000);
-        // Trophy obtained at the following source: https://www.compart.com/en/unicode/U+1F44F
+        // Trophy obtained at the following source: https://www.compart.com/en/unicode/U+1F3C6
         $("#overall-winner").show().html(`
         Congrats, you were first to ${gameChoice}!
         <br>

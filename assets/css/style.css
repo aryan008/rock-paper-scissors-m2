@@ -131,13 +131,28 @@ button:hover {
     animation:3s rotate infinite ease-in-out;
 }
 
+/*---Game page styling---*/
+#btn--game--controls,
+#btn--game--controls button {
+    font-size: 25px;
+    width: 550px;
+    display: inline-flex;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    margin-top: 15px;
+    justify-content: space-around;
+    background-color: rgb(32, 32, 32);
+    outline: none;
+}
+
 /*---Keyframes animation applied---*/
 @keyframes hero{
     100%{ transform: rotateY(360deg); }
 }
 
-/* Continuous rotation documentation help on the keyframes rotation sourced from:
-https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously*/
 @keyframes rotate{
+    /* Continuous rotation documentation help on the keyframes rotation sourced from:
+https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously*/
     100%{ transform:rotate(1turn) }
 }

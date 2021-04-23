@@ -207,6 +207,35 @@ https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-contin
     100%{ transform:rotate(1turn) }
 }
 
+/*The pulse effect was designed with help from the following source:
+https://css-tricks.com/almanac/properties/a/animation/*/
+.green-click-win {
+    background-color: rgb(49, 245, 31, 1);
+    animation-name: g-click;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes g-click {
+  0% {
+    transform: scale(1.05);
+    background-color: rgba(49, 245, 31, .7);
+  }
+  50% {
+    transform: scale(0.95);
+    background-color: rgba(49, 245, 31, .9);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgba(49, 245, 31, 1);
+  }
+}
+
 
 /*---JavaScript colourings applied---*/
 .green-flash {

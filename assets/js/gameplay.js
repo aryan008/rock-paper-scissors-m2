@@ -23,15 +23,23 @@ function play(userHand) {
 function main() {
     $("#rockHand").on("click", function () {
         audioHand();
-        play("rock");
+        setTimeout(function(){
+            play("rock");
+        }, 1200);
     });
 
     $("#paperHand").on("click", function () {
-        play("paper");
+        audioHand();
+        setTimeout(function(){
+            play("paper");
+        }, 1200);
     });
 
     $("#scissorsHand").on("click", function () {
-        play("scissors");
+        audioHand();
+        setTimeout(function(){
+            play("scissors");
+        }, 1200);
     });
 }
 

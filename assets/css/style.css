@@ -21,3 +21,13 @@ section {
     margin-top: 50px;
     height: 12vh;
 }
+
+#hero-image {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px transparent;
+    box-shadow: 0px 0px 20px rgba(199, 126, 247, 0.877);
+    
+}

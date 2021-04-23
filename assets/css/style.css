@@ -32,6 +32,21 @@ section {
     animation: 3s hero infinite linear;
 }
 
+.game-number-button {
+    font-size: 15px;
+    border: 2px solid;
+    box-shadow: 0px 0px 20px rgba(226, 222, 170, 0.877);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 6px;
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgb(255,255,255);
+    color: black;
+    outline: none;
+}
 
 /*---Keyframes animation applied---*/
 @keyframes hero{

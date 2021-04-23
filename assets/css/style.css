@@ -264,6 +264,34 @@ https://css-tricks.com/almanac/properties/a/animation/*/
   }
 }
 
+/*https://css-tricks.com/almanac/properties/a/animation/*/
+.yellow-click-draw {
+    background-color: rgba(255, 255, 0,1);
+    animation-name: y-click;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes y-click {
+  0% {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 0, .7);
+  }
+  50% {
+    transform: scale(0.95);
+    background-color: rgba(255, 255, 0, .9);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgba(255, 255, 0,1);
+  }
+}
+
 
 /*---JavaScript colourings applied---*/
 .green-flash {

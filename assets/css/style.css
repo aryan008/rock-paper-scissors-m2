@@ -206,3 +206,17 @@ button:hover {
 https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously*/
     100%{ transform:rotate(1turn) }
 }
+
+
+/*---JavaScript colourings applied---*/
+.green-flash {
+    color: limegreen;
+}
+
+.red-flash {
+    color: red;
+}
+
+.yellow-flash {
+    color: yellow;
+}

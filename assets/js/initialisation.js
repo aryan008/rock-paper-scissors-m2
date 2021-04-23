@@ -7,3 +7,5 @@ const resultText = document.getElementById("result-text-paragraph");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("cpu-score");
 const resetGame = document.getElementById("btn--new--game");
+var userScore = 0;
+var cpuScore = 0;

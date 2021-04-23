@@ -15,8 +15,10 @@ function incrementWinScore() {
         <br>
         <span class = "span-trophy">&#128079;&#127996;</span>
         <br>
+        <h2 id = "overall-winner">Better luck on the next game!</h2>
         `).fadeOut();
         $("#game-div").hide().delay().fadeIn();
         $("#btn--game--controls").hide().delay().fadeIn();
+        resetFunc();
     }
 }

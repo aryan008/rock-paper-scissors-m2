@@ -236,6 +236,34 @@ https://css-tricks.com/almanac/properties/a/animation/*/
   }
 }
 
+/*https://css-tricks.com/almanac/properties/a/animation/*/
+.red-click-lose {
+    background-color: rgb(184, 26, 26, 1);
+    animation-name: r-click;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes r-click {
+  0% {
+    transform: scale(1.05);
+    background-color: rgba(184, 26, 26, .7);
+  }
+  50% {
+    transform: scale(0.95);
+    background-color: rgba(184, 26, 26, .9);
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgba(184, 26, 26 ,1);
+  }
+}
+
 
 /*---JavaScript colourings applied---*/
 .green-flash {

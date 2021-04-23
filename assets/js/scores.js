@@ -1,10 +1,10 @@
 function incrementWinScore() {
     $("#player-score").innerHTML = ++userScore;
-    $("#player-score-text").classList.add("green-flash");
-    $("#player-score").classList.add("green-flash");
+    $("#player-score-text").addClass("green-flash");
+    $("#player-score").addClass("green-flash");
     setTimeout(function(){
-        $("#player-score-text").classList.remove("green-flash");
-        $("#player-score").classList.remove("green-flash");
+        $("#player-score-text").removeClass("green-flash");
+        $("#player-score").removeClass("green-flash");
     }, 500);
 
     if ($("#player-score").innerHTML === gameChoice) {
@@ -25,11 +25,11 @@ function incrementWinScore() {
 
 function incrementLoseScore() {
     $("#cpu-score").innerHTML = ++cpuScore;
-    $("#cpu-score-text").classList.add("red-flash");
-    $("#cpu-score").classList.add("red-flash");
+    $("#cpu-score-text").addClass("red-flash");
+    $("#cpu-score").addClass("red-flash");
     setTimeout(function(){
-        $("#cpu-score-text").classList.remove("red-flash");
-        $("#cpu-score").classList.remove("red-flash");
+        $("#cpu-score-text").removeClass("red-flash");
+        $("#cpu-score").removeClass("red-flash");
     }, 500);
 
     if ($("#cpu-score").innerHTML === gameChoice) {

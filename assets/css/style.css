@@ -225,3 +225,7 @@ https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-contin
     height: 25vh;
     width: 25vh;
 }
+
+.result-emoji {
+    font-size: 100px;
+}

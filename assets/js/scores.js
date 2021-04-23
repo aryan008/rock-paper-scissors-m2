@@ -8,7 +8,7 @@ function incrementWinScore() {
     }, 500);
 
     if (computerScore.innerHTML === gameChoice) {
-        $("#overall-div").show().fadeOut();
+        $("#overall-div").show().fadeOut(4000);
         // Trophy obtained at the following source: https://www.compart.com/en/unicode/U+1F44F
         $("#overall-winner").show().html(`
         Unlucky, the computer got to ${gameChoice} first...
@@ -16,9 +16,9 @@ function incrementWinScore() {
         <span class = "span-trophy">&#128079;&#127996;</span>
         <br>
         <h2 id = "overall-winner">Better luck on the next game!</h2>
-        `).fadeOut();
-        $("#game-div").hide().delay().fadeIn();
-        $("#btn--game--controls").hide().delay().fadeIn();
+        `).fadeOut(4000);
+        $("#game-div").hide().delay(4000).fadeIn(1500);
+        $("#btn--game--controls").hide().delay(4000).fadeIn(1500);
         resetFunc();
     }
 }

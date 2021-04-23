@@ -1,5 +1,5 @@
 function incrementWinScore() {
-    $("#player-score").innerHTML = ++userScore;
+    $("#player-score").html(++userScore);
     $("#player-score-text").addClass("green-flash");
     $("#player-score").addClass("green-flash");
     setTimeout(function(){
@@ -24,7 +24,7 @@ function incrementWinScore() {
 }
 
 function incrementLoseScore() {
-    $("#cpu-score").innerHTML = ++cpuScore;
+    $("#cpu-score").html(++cpuScore);
     $("#cpu-score-text").addClass("red-flash");
     $("#cpu-score").addClass("red-flash");
     setTimeout(function(){

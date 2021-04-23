@@ -153,6 +153,10 @@ button:hover {
     outline: none;
 }
 
+#btn--new--game {
+    margin-right: 15px;
+}
+
 /*---Keyframes animation applied---*/
 @keyframes hero{
     100%{ transform: rotateY(360deg); }

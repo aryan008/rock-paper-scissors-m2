@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(playButton).hide();
+    $("#div--btn--play--heading").hide();
     $("#picture-div").hide();
     $("#play-div").hide();
     $("#overall-div").hide();

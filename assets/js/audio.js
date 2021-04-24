@@ -1,5 +1,5 @@
 /**
-* @fileOverview JavaScript Initialisation Library.
+* @fileOverview JavaScript Audio Library.
 * @author <a href="https://github.com/aryan008">Adam Ryan</a>
 * @version 1.1.1
 */

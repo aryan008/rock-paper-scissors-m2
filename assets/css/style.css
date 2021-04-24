@@ -61,9 +61,9 @@ button:hover {
 
 #div--btn--play--heading,
 #div--btn--play--heading button {
-    font-size: 30px;
+    font-size: 25px;
     border: 2px solid;
-    box-shadow: 0px 0px 20px rgba(199, 126, 247, 0.877);
+    box-shadow: 0px 0px 20px rgba(226, 222, 170, 0.877);
     height: 160px;
     width: 160px;
     border-radius: 50%;
@@ -210,7 +210,7 @@ https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-contin
 /*The pulse effect was designed with help from the following source:
 https://css-tricks.com/almanac/properties/a/animation/*/
 .green-click-win {
-    background-color: rgb(49, 245, 31, 1);
+    background-color: rgba(49, 245, 31, 1);
     animation-name: g-click;
     animation-duration: 1.5s; 
     animation-timing-function: ease-in-out; 
@@ -238,7 +238,7 @@ https://css-tricks.com/almanac/properties/a/animation/*/
 
 /*https://css-tricks.com/almanac/properties/a/animation/*/
 .red-click-lose {
-    background-color: rgb(184, 26, 26, 1);
+    background-color: rgba(184, 26, 26, 1);
     animation-name: r-click;
     animation-duration: 1.5s; 
     animation-timing-function: ease-in-out; 
@@ -295,15 +295,15 @@ https://css-tricks.com/almanac/properties/a/animation/*/
 
 /*---JavaScript colourings applied---*/
 .green-flash {
-    color: limegreen;
+    color: rgb(49, 245, 31);
 }
 
 .red-flash {
-    color: red;
+    color: rgb(184, 26, 26);
 }
 
 .yellow-flash {
-    color: yellow;
+    color: rgba(255, 255, 0);
 }
 
 .span-trophy {

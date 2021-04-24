@@ -13,7 +13,7 @@ Functions noted from other files: incrementWinScore(), incrementLoseScore()
 /**
 * [Function to perform a set number of actions if the player wins the hand]
 * @param  {[string]}    userHand        [Whether the user chose rock, paper or scissors]
-* @param  {[string]}    cpu             [Whether the user chose rock, paper or scissors]
+* @param  {[string]}    cpu             [Whether the computer chose rock, paper or scissors]
 */
 function win(userHand, cpu) {
     // Win/lose/draw hand text emoji source: https://www.w3schools.com/charsets/ref_emoji_smileys.asp

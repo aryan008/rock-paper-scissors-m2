@@ -1,3 +1,7 @@
+var userScore = 0;
+var cpuScore = 0;
+var gameChoice = "";
+
 function incrementWinScore() {
     $("#player-score").html(++userScore);
     $("#player-score-text").addClass("green-flash");

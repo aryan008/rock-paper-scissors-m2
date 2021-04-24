@@ -332,3 +332,20 @@ https://css-tricks.com/almanac/properties/a/animation/---*/
         font-size: 45px;
     }
 }
+
+@media only screen and (max-width:796px) {
+    .scoreboard {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 1rem;
+    }
+
+    #result-text-div {
+        font-size: 22px;
+    }
+
+    .result-emoji {
+        font-size: 35px;
+    }
+}

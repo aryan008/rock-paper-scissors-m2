@@ -4,6 +4,7 @@
 * @version 1.1.1
 */
 /*jshint esversion: 6 */
+
 /* Variable noted in other files: gameChoice
 Function noted in other files: resetFunc()
 */

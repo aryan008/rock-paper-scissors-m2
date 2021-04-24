@@ -90,6 +90,10 @@ button:hover {
     margin-left: 5px;
 }
 
+#btn--read--more, #btn--read--less {
+    cursor: pointer;
+}
+
 #read-more-icon, #read-less-icon {
     font-size: 25px;
     color: darkorange;
@@ -169,6 +173,7 @@ button:hover {
     border-radius: 50%;
     margin: 1rem;
     outline: none;
+    cursor: pointer;
 }
 
 .btn--options--rps button span {

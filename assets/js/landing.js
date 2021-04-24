@@ -3,5 +3,5 @@ $(document).ready(function() {
     $("#picture-div").hide();
     $("#play-div").hide();
     $("#overall-div").hide();
-    $("#game--count--choice--div").hide().fadeIn(1200)
+    $("#game--count--choice--div").show();
 });

@@ -202,13 +202,13 @@ button:hover {
 }
 
 @keyframes rotate{
-    /* Continuous rotation documentation help on the keyframes rotation sourced from:
-https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously*/
+    /* ---Continuous rotation documentation help on the keyframes rotation sourced from:
+https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously---*/
     100%{ transform:rotate(1turn) }
 }
 
-/*The pulse effect was designed with help from the following source:
-https://css-tricks.com/almanac/properties/a/animation/*/
+/*---The pulse effect was designed with help from the following source:
+https://css-tricks.com/almanac/properties/a/animation/---*/
 .green-click-win {
     background-color: rgba(49, 245, 31, 1);
     animation-name: g-click;
@@ -236,7 +236,7 @@ https://css-tricks.com/almanac/properties/a/animation/*/
   }
 }
 
-/*https://css-tricks.com/almanac/properties/a/animation/*/
+/*---https://css-tricks.com/almanac/properties/a/animation/---*/
 .red-click-lose {
     background-color: rgba(184, 26, 26, 1);
     animation-name: r-click;
@@ -264,7 +264,7 @@ https://css-tricks.com/almanac/properties/a/animation/*/
   }
 }
 
-/*https://css-tricks.com/almanac/properties/a/animation/*/
+/*---https://css-tricks.com/almanac/properties/a/animation/---*/
 .yellow-click-draw {
     background-color: rgba(255, 255, 0,1);
     animation-name: y-click;
@@ -313,4 +313,22 @@ https://css-tricks.com/almanac/properties/a/animation/*/
 
 .result-emoji {
     font-size: 100px;
+}
+
+/*---Responsive media screen size design implementation---*/
+@media only screen and (max-width:1037px) {
+    .scoreboard {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 1rem;
+    }
+
+    #result-text-div {
+        font-size: 25px;
+    }
+
+    .result-emoji {
+        font-size: 45px;
+    }
 }

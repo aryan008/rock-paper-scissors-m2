@@ -21,6 +21,7 @@ function incrementWinScore() {
         <br>
         <h2 id = "overall-winner">Let's play again!</h2>
         `).fadeOut(4000);
+        winnerOverall();
         $("#game-div").hide().delay(4000).fadeIn(1500);
         $("#btn--game--controls").hide().delay(4000).fadeIn(1500);
         resetFunc();
@@ -46,6 +47,7 @@ function incrementLoseScore() {
         <br>
         <h2 id = "overall-winner">Let's play again!</h2>
         `).fadeOut(4000);
+        loserOverall();
         $("#game-div").hide().delay(4000).fadeIn(1500);
         $("#btn--game--controls").hide().delay(4000).fadeIn(1500);
         resetFunc();

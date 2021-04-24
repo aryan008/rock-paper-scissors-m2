@@ -348,4 +348,65 @@ https://css-tricks.com/almanac/properties/a/animation/---*/
     .result-emoji {
         font-size: 35px;
     }
+
+    #overall-winner {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:562px) {
+    #introduction--div--heading {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 8vh;
+    }
+
+    .game-number-button {
+        font-size: 15px;
+        height: 85px;
+        width: 85px;
+    }
+
+    #history-div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    #welcome-picture {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    #btn--game--controls,
+    #btn--game--controls button {
+        font-size: 18px;
+        width: 350px;
+    }
+
+    .btn--options--rps button {
+        height: 150px;
+        width: 150px;
+    }
+
+    .scoreboard {
+        width: 65%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1rem;
+    }
+
+    #result-text-div {
+        font-size: 15px;
+    }
+
+    .result-emoji {
+        font-size: 35px;
+    }
+
+    #overall-winner {
+        font-size: 30px;
+    }
 }

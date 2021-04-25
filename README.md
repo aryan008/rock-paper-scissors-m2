@@ -439,5 +439,22 @@ JavaScript win-lose-draw Library - [link](assets/js/win-lose-draw.js)
 Each individual library has been fully documented adhering to the following JSDoc framework.
 
 
+### Game Logic and Game Logic diagram
+
+The game logic was developed using JavaScript and jQuery. See the comments in the JavaScript files linked in the above “How JS created an experience” section for the full explanations.
+
+When the user lands on the site page, they are immediately drawn to the 4 buttons representing the 4 options of the “best to X” game series – 5 hands, 8 hands, 10 hands, 12 hands.
+
+Once the user selects their preferred option, these four choices are stored in a variable and the physical buttons are faded from view. The “Let’s Play!” button fades in for the user to see, and by design choice is slightly larger than the previous clickable elements to let the user know they are to click it to play the game.
+
+From here, the loading page is brought into focus for a set period before fading out and bringing in the actual game.
+
+The 3 options of rock/paper/scissors are large clickable buttons, and using JavaScript, clicking one of these buttons to play the game has several effects, including:
+-	Colour flashing on the buttons/scoreboard
+-	Scoreboard incrementation
+-	Result text detailing what happened in the hand
+-	Checking each hand to see if there is an overall winner, and if there is then congratulations/commiserations takes up the entire screen
+Further, both the “main menu” and “reset game” buttons at the top of the game page do as described when they are clicked. See attached for a [diagram](assets/rm_files/diagram.pdf) of the game logic.
+
 
 

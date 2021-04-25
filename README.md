@@ -530,6 +530,81 @@ To review the Responsinator testing, click [here](https://www.responsinator.com/
 [Chrome devtools device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode) was also used to test the site’s responsiveness. Manual testing was also performed via resizing the browser to review for issues at varying browser screen sizes.
 No known issues were present on these responsive tests.
 
+### Manual testing
+1. ** Correct Fade In/Fade Out of designated features on user click functions throughout the site
+  * Expected: Correct Fade In/Fade Out of features at: site load; user clicks the game number choice button; user clicks the “Let’s Play!” button; user clicks the “Back to main menu” button
+  * Testing: Click through as fast as I could/Click through as slow as I could
+  * Result: All works fine apart from slight timing differences on the fade in for both the document load and gameplay load
+  * Fix: Bug fixes noted below along with links
 
+As part of commit #60 - updating for fade in of the document load for UX. Linked here.
+As part of commit #63 - updating for fade in of the gameplay for UX. Linked here.
+
+
+2. ** Images/text presented on the site do not stretch on different viewports and "pop" to the user
+  * Expected: Across all pages and viewport sizes, images look crisp to the user and the text alongside them is easily readable
+  * Testing: Reviewed all icons/text across all viewport sizes
+  * Result: Images stay clean and sharp, whilst text displays easily to the reader
+  * Fix: As above, no fix needed
+
+3. ** Responsive design is present on non-large devices
+  * Expected: On tablet/mobile viewing, certain image/text content on the site is formatted appropriately
+  * Testing: Tested by resizing each page to tablet/mobile and viewing the resulting site content on these browser widths
+  * Result: The use of Media Queries in CSS proved effective in the resizing of images/text
+  * Fix: As above, no fix needed
+
+4. ** Ensuring the user choice of the “overall games to be played” is correctly used in the game scenario
+  * Expected: When the user selects the “best of” games, this is the bar for either the user or computer to reach to when playing the game
+  * Testing: Clicked on all the button options (5/8/10/12) and ran the game for that length to ensure this was the designated cut off for an overall winner
+  * Result: The result did not update the gameplay moving forward
+  * Fix: Bug fixed below along with link. The correct games are now the setting point as part of the user’s choice on the landing page.
+
+As part of commit #74 - correctly fixing the game number the user wishes to pull in. Linked here.
+
+5. ** Clicking on the read more/less history text populates a text section for the user
+  * Expected: On the clicking of the plus button, the history of the game populates below it. On clicking the minus button, this takes the text away
+  * Testing: Manual clicking done by the developer upon site landing
+  * Result: All works fine apart from a slight bug noted in the “Known Bugs” section related to refresh clicking
+  * Fix: As explained in the “Known Bugs” section, no update to be made
+
+6. ** Back to main menu button brings the landing page back into view on click
+  * Expected: When the button is click, the user sees the page they first visited upon entering the site
+  * Testing: Manual clicking done by the developer; clicked at various stages of a game to ensure the button worked appropriately throughout any stage of a game
+  * Result: Brought to main menu when clicked no matter the state of the gameplay screen
+  * Fix: None required
+
+7. ** Ensuring that text/colouring is displayed during the game at the end of each hand that corresponds to the user/computer choice
+  * Expected: The JS adds the correct class of colouring to the chosen buttons/scoreboard on a win/lose/draw; the text displayed showing what happened during the hand in terms of what the user/computer chose
+  * Testing: Manually clicked each of the game choice buttons to ensure the correct colouring lit up the buttons/scoreboard; console logged the values of each hand (user’s choice & computer’s choice) to review the text and button colouring in that the correct JS was applied
+  * Result: Correct colouring/text applied to the relevant buttons/scoreboard and the text was correct
+  * Fix: No fix needed
+
+8. ** Score incrementation is correctly applied on a user/computer win
+  * Expected: When the user wins, the score is incremented +1. When the computer wins, the score is incremented +1. When a draw occurs, no score is added
+  * Testing: Tested by playing numerous games and console logged the user/computer choice to see if the score incrementation correctly updated
+  * Result: Initially, jQuery variable pulled in the incorrect variable for incrementation. Once this small update was made, the scoreboard updated seamlessly
+  * Fix: Bug fixed below along with link. 
+
+As part of commit #86 - correct use of jQuery to increment the user/cpu score. Linked here.
+
+9. ** The reset game function resets the scores back to 0-0 on the click
+  * Expected: When the user clicks the “reset game” button, the scores of both the user and computer start afresh at 0-0
+  * Testing: Tested by playing games on the 5/8/10/12 user game choice and clicking the “reset game” button after 3 separate stages in each type of game
+  * Result: The score was changed to 0-0 each time I clicked the button
+  * Fix: None required
+
+10. ** Automatic score reset on an overall win/loss
+  * Expected: When the user/computer wins the overall game, the score is automatically reset to 0-0
+  * Testing: Tested by playing games on the 5/8/10/12 user game choice through an overall winner status and logging the user/computer score after the game was over
+  * Result: The score did not reset correctly
+  * Fix: : Bug fixed below along with link. The issue was an incorrect jQuery method applied on resetting the scores.
+
+As part of commit #95 – fix the reset of the game scores at the end of each game correctly. Linked here.
+
+### Further Testing
+
+* The Emoji’s used on the result text at the end of each game/overall game win/loss correctly reflect the user’s result
+*	The coin flip icon on the landing page does not rotate too fast
+*	The spinning image on the loading page rotates enough length of time for the page to load (it settles back on the start position just as the page fades from view)
 
 

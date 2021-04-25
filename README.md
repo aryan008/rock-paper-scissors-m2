@@ -485,3 +485,27 @@ Used for designing of the wireframes as I am completing this project on my work 
 [Google fonts](https://fonts.google.com/)
 Used to add the Lato font and related font weights to the CSS style file using the @import url function. To improve site load times, this file is loaded into the head element of the HTML pages and backed up by using sans-serif in CSS.
 
+## Testing
+
+### Code validation
+The W3C Markup Validator, W3C CSS Validator and JSHint JavaScript Validator Services were used to validate the project to ensure there were no errors in the project.
+
+[W3C Markup Validator](https://validator.w3.org/) - [Results screenshot](assets/rm_files/html-validator.PNG)
+
+No fixes from the above test were necessary on review of the results.
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results screenshot](assets/rm_files/css-validator.PNG)
+
+No fixes from the above test were necessary on review of the results.
+
+Each JavaScript Code Library file was validated using the JSHint static code analysis tool.
+
+[JSHint JS Validator](https://jshint.com/) - [Results screenshot](assets/rm_files/jshint.PNG)
+
+No fixes from the above test were necessary on review of the results.
+
+
+
+
+
+

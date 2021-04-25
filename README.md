@@ -607,4 +607,68 @@ As part of commit #95 – fix the reset of the game scores at the end of each ga
 *	The coin flip icon on the landing page does not rotate too fast
 *	The spinning image on the loading page rotates enough length of time for the page to load (it settles back on the start position just as the page fades from view)
 
+### Testing User Stories from User Experience (UX) Section
+
+#### First-Time Visitor Goals
+As a first-time visitor of the site, I want:
+
+1.	_My impression of the site to be a positive experience_
+*	The colour/fonts and layout of the entire structure entice to play the game and click the buttons
+*	Clear call to action in clicking how many games to play as well as checking out the history
+*	Animation CSS used to display gaming transition images and cursor elements
+*	Clear feedback loop on the game on how you are progressing, which is required in all games
+2.	_To understand the main purpose of the site_
+*	RPS is displayed on the landing page
+*	The buttons to click to progress pop to the user
+*	The winning hand combinations are present
+3.	_To provide relevant content related to RPS – how to play, the history of the game, etc._
+*	The winning hand combinations are present
+*	Clickable element to view the history of the game
+*	State changes as a result of where the user clicks
+4.	_A clear and unambiguous layout_
+*	The colour/fonts and layout of the entire structure entice to play the game and click the buttons
+*	Clean layout – simple game, simple site
+5.	_An instant feedback loop of the result of each hand against the computer_
+*	Text displayed below the scoreboard is unique to the hand played
+*	Scoreboard incrementation at the end of each hand
+*	Colouring effects on the buttons/scoreboard depending on win/lose/draw
+6.	_Easy navigation of the site_
+*	Clear call to action for the user on both the site landing page and game mode
+*	Cursor pointer effect on the clickable elements of the site
+7.	_The ability to reset my score and start a new game_
+*	The “reset game” buttons resets the score to 0-0
+*	Visible during playing of the game
+*	The “back to main menu” brings the user back to the landing page to choose another game type
+*	Automatic score reset at the end of each full game
+8.	_To understand the score on the site clearly to see if I am winning_
+*	Incremental scoreboard added and updated appropriately at the end of each hand
+9.	_The colours, layout and feel of the site to be of a gaming nature as part of cultural appropriation_
+*	Clear contrast between background and foreground in terms of text and images
+*	Coloured flashes as appropriate at the end of each hand to the buttons/scoreboard
+*	Loading screen adds to the “gaming” effect most users would be familiar with
+*	Coin flip image on the landing page speaks to the nature of RPS as a game
+10.	_To pick a “best of X” games to play and there be an overall winner_
+*	State change once the user reaches an “overall winner/loser”
+
+#### Returning and Frequent Visitor Goals
+As a returning/frequent visitor of the site, I want:
+
+1.	_A user-friendly format of playing RPS_
+*	RPS is playable within 3 clicks of the user’s mouse
+2.	_To explore the history of this game_
+*	The user can view both the history and the Wikipedia link from the main menu
+
+#### Known Bugs
+There are two known bugs in the site:
+*	When the user has clicked on the “Back to main menu” button, the buttons to click to view the history do not display the text
+*	The user can play the game quickly by clicking on the game buttons in rapid succession. This is an issue as the sound overlaps itself
+
+Despite these known bugs, in the interest of time I will have to leave them in the site even though I would prefer to get them fixed.
+
+
+
+
+
+
+
 

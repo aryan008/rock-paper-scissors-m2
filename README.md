@@ -105,8 +105,32 @@ As the developer, the site is to achieve the following goals:
 4.	Utilize the combination of HTML, CSS & JavaScript to enhance the experience of the user and site owner
 
 
+## First-Time Visitor Goals
+As a first-time visitor of the site, I want:
+
+1.	My impression of the site to be a positive experience
+2.	To understand the main purpose of the site
+3.	To provide relevant content related to RPS – how to play, the history of the game, etc.
+4.	A clear and unambiguous layout
+5.	An instant feedback loop of the result of each hand against the computer
+6.	Easy navigation of the site
+7.	The ability to reset my score and start a new game
+8.	To understand the score on the site clearly to see if I am winning
+9.	The colours, layout and feel of the site to be of a gaming nature as part of cultural appropriation
+10.	To pick a “best of X” games to play and there be an overall winner
 
 
+## Returning and Frequent Visitor Goals
+1.	A user-friendly format of playing RPS
+2.	To explore the history of this game
+
+
+## Basic Rules of The Game
+The following are the simple rules of RPS:
+
+1.	Rock beats Scissors
+2.	Scissors beats Paper
+3.	Paper beats Rock
 
 
 

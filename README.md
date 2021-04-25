@@ -78,3 +78,36 @@ The site is also designed on a “single” webpage. However, the user interacti
   * [Code](#code)
   * [Acknowledgements](#acknowledgements)
 
+## Site Owner and Product/Business Goals
+As the site owner, the website is to act as the site for all users to play RPS, allowing them to:
+* See the details of the history of the game
+*	Start/Reset a game of RPS easily with no backward navigation for the user
+*	Play RPS as a game
+*	Understand the winning hand combinations
+*	Visually see if they are beating the computer via a scoreboard
+*	Get instant feedback if they won/lost/drew a hand
+*	Have an overall winner/loser
+
+The site is to achieve the following goals:
+1.	The site is presented in an efficient and authentic way so that the users can quickly start a new game of RPS
+2.	The information on the site is displayed clearly and contain all the information necessary for the user to understand the rules of the game and its history
+3.	Provide feedback to the players on the result of each hand but also on an overall score basis
+4.	Is responsive on all device sizes
+5.	Utilize JavaScript to create a user-friendly experience
+6.	Creates a positive experience for the user using colour, imagery and layout
+7.	To display the content in a culturally appropriate attested to the audience it is aimed at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

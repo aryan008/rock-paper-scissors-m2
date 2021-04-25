@@ -204,3 +204,26 @@ Question |	Response for site design
 What is the visual language? |	Colouring as per testing norms, layout is sparse but informative, Fonts as per media display standard, images are clear and pop to the user, JavaScript for call to action for the user to progress from landing page to the game
 What is the economy? |	The most important user/owner elements are easily recognised
 Readability and consistency |	After each “page” change from the use of JavaScript, the resulting “page” is familiar to the user in terms of font/styling consistency
+
+### _Who/ What/ How_
+**Who is it for?** Users who want to understand RPS and its rules, its history and play a game
+
+**What is it for?** Users who wish to play a game against the computer online
+
+**How will it achieve this?** Through creating a RPS site, and through JavaScript, allow the user to compete against a computer opponent for a “best of X” series
+
+### _User Stories_
+RPS is one of the earliest games I ever played as a child. A simple, rules based logical game that can be both incredibly fun and lead to bragging rights for a brief time. Often, RPS is a “toss a coin” moment, something two people do to decide on an action.
+
+Hence, I want a site where I can:
+1.	Play RPS against a computer
+2.	Learn about the history of RPS
+3.	Navigate easily
+4.	See if I’m winning or not
+5.	Not become overburdened by information – this is a simple game
+
+
+
+
+
+

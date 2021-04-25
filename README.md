@@ -537,8 +537,8 @@ No known issues were present on these responsive tests.
   * Result: All works fine apart from slight timing differences on the fade in for both the document load and gameplay load
   * Fix: Bug fixes noted below along with links
 
-As part of commit #60 - updating for fade in of the document load for UX. Linked here.
-As part of commit #63 - updating for fade in of the gameplay for UX. Linked here.
+As part of commit #60 - updating for fade in of the document load for UX. Linked [here](https://github.com/aryan008/rock-paper-scissors-m2/commit/b396fe2a8a1a43d498405e258d8d348bb4711b90).
+As part of commit #63 - updating for fade in of the gameplay for UX. Linked [here](https://github.com/aryan008/rock-paper-scissors-m2/commit/feb7ffa1a87b59e9379b1ba81daa440ab2b9ec34).
 
 
 2. *Images/text presented on the site do not stretch on different viewports and "pop" to the user*
@@ -559,7 +559,7 @@ As part of commit #63 - updating for fade in of the gameplay for UX. Linked here
   * Result: The result did not update the gameplay moving forward
   * Fix: Bug fixed below along with link. The correct games are now the setting point as part of the user’s choice on the landing page.
 
-As part of commit #74 - correctly fixing the game number the user wishes to pull in. Linked here.
+As part of commit #74 - correctly fixing the game number the user wishes to pull in. Linked [here](https://github.com/aryan008/rock-paper-scissors-m2/commit/be758a8d2fd05ef5767e02698d2569a3eb85ca65).
 
 5. *Clicking on the read more/less history text populates a text section for the user*
   * Expected: On the clicking of the plus button, the history of the game populates below it. On clicking the minus button, this takes the text away
@@ -583,7 +583,7 @@ As part of commit #74 - correctly fixing the game number the user wishes to pull
   * Expected: When the user wins, the score is incremented +1. When the computer wins, the score is incremented +1. When a draw occurs, no score is added
   * Testing: Tested by playing numerous games and console logged the user/computer choice to see if the score incrementation correctly updated
   * Result: Initially, jQuery variable pulled in the incorrect variable for incrementation. Once this small update was made, the scoreboard updated seamlessly
-  * Fix: Bug fixed below along with link. 
+  * Fix: Bug fixed below along with [link](https://github.com/aryan008/rock-paper-scissors-m2/commit/c3aa05c79d61320632a5d44c97cebe3e286e3b32). 
 
 As part of commit #86 - correct use of jQuery to increment the user/cpu score. Linked here.
 
@@ -599,7 +599,7 @@ As part of commit #86 - correct use of jQuery to increment the user/cpu score. L
   * Result: The score did not reset correctly
   * Fix: : Bug fixed below along with link. The issue was an incorrect jQuery method applied on resetting the scores.
 
-As part of commit #95 – fix the reset of the game scores at the end of each game correctly. Linked here.
+As part of commit #95 – fix the reset of the game scores at the end of each game correctly. Linked [here](https://github.com/aryan008/rock-paper-scissors-m2/commit/276e8fe0e5db54f4e6f9d128cc9054538da5767f).
 
 ### Further Testing
 

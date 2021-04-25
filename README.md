@@ -665,7 +665,42 @@ There are two known bugs in the site:
 
 Despite these known bugs, in the interest of time I will have to leave them in the site even though I would prefer to get them fixed.
 
+## Deployment
 
+### Process of deployment
+*GitHub Pages*
+
+The project was deployed to GitHub Pages using the following steps.
+
+1.	Log in to GitHub and locate the [RPS GitHub Repository](https://github.com/aryan008/rock-paper-scissors-m2).
+2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4.	Under "Source", click the dropdown called "None" and select "Master Branch".
+5.	The page will automatically refresh.
+6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+*Forking the GitHub Repository*
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps.
+
+1.	Log in to GitHub and locate the [RPS GitHub Repository](https://github.com/aryan008/rock-paper-scissors-m2).
+2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3.	You should now have a copy of the original repository in your GitHub account.
+
+Further information surrounding forking a repository can be found [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+
+### How to run this project locally
+1.	Log in to GitHub and locate the [RPS GitHub Repository](https://github.com/aryan008/rock-paper-scissors-m2).
+2.	Under the repository name, click "Clone or download".
+3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4.	Open Git Bash
+5.	Change the current working directory to the location where you want the cloned directory to be made.
+6.	Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+Further information surrounding closing a repository can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+ 
+Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 
 

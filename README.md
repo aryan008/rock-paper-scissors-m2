@@ -271,3 +271,22 @@ The site uses three separate images during the playing of the game in the button
 The use of emoji’s – either smiley faces or trophy – are displayed throughout the site as a form of feedback loop to the user on each hand.
 Font Awesome is used to display emoticons on the landing page.
 See the credits section of this ReadMe file for all appropriate accreditation of the imagery used.
+
+#### Visual Hierarchy
+According to the following article on [Visual Hierarchy](https://www.interaction-design.org/literature/topics/visual-hierarchy):
+
+“Visual hierarchy controls the delivery of the experience. If you have a hard time figuring out where to look on a page, it’s more than likely that its layout is missing a clear visual hierarchy.”
+
+The following characteristics per the article are manipulated (__article narrative in bold__, _developer response in italic_):
+* __Size – Users notice larger elements more easily.__ _The three images of Rock/Paper/Scissors will be large and act as buttons to play the game with, allowing instant notice by the user. The 4 game number choices available to the user will be slightly smaller than the CTA of “Let’s Play” to start the game, highlighting that the click of the “Let’s Play” button is the final step before the game starts._
+* __Colour – Bright colours typically attract more attention than muted ones.__ _The contrast between the dark background and bright text attracts the user the read the text more visibly. Colour classes are added at the end of each hand to visibly display to the user whether they won, lost or drew the hand. See the testing section of this file for contrast testing._
+* __Contrast – Dramatically contrasted colours are more eye-catching.__ _As noted above._
+* __Repetition – Repeating styles can suggest content is related.__ _The style is repetitive – information for the user follows the same pattern after each “click” by the user._
+*	__Proximity – Closely placed elements seem related.__ _Content is grouped based on spacing for user readability sectioning. The grouping of the game number choice buttons are placed beside each other as these are the options, before making way to the singular “Let’s play” button. The grouping of the three images draws the users into the fact that these are the suggested icons to click on to play the game. The scoreboard is noted below the buttons – this is a design choice seen in most gaming circles._
+*	__Whitespace – More space around elements draws the eye towards them.__ _Spacing is used effectively according to the hub needs of the product goals._
+*	__Texture and Style – Richer textures stand out over flat ones.__ _As noted in the typography section._
+
+
+
+
+

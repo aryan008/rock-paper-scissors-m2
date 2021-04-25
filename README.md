@@ -374,3 +374,32 @@ User Goal | Feature(s)/ Content in response | Goal Met?
 (4)|	Noted above– JavaScript features noted below.|	Yes
 
 
+## Information architecture
+
+### Sections
+The game is comprised of a single web page, index.html, divided into the following sections:
+*	The landing page section, where the user will see the hero image, select the number of games they’d like to play, view the history and finally click the “Let’s Play” button
+*	The loading page section, where the spinning image is present along with a loading gif. Demonstration to the user that the game is loading via text is also present here
+*	The game page section, where the user will play the game and see who’s winning
+
+### How CSS created an experience
+#### Responsive styling
+
+CSS and media queries were used in the style.css file to make a responsive web application for all screen sizes. This has been tested in the testing section below as part of responsive testing. The following media query sizes were used:
+*	max-width:1037px
+*	max-width:796px
+*	max-width:562px
+*	max-width:460px
+*	max-width:400px
+_Note that as part of response testing in the testing section below, the above CSS media rules passed all review by the developer._
+
+#### Hover effects
+CSS was used that a transition was present on all buttons that the user could interact with, as well as adding a cursor pointer to further engage the site user into clicking the button.
+
+#### Animation effects
+CSS was used across both the hero image and the spinning loading page image to convey to the user a feel of “gaming”, as well as the fact that these images should not be clicked. The hero image acts as a “coin flip” due to the nature of RPS, and the spinning image often occurs in professional games as the games are loading.
+Keyframes animation was present using CSS as the user played the game – depending on if the user won, lost or drew a hand, the game buttons and scoreboard would light up momentarily green, red or yellow respectively. This is to provide active feedback on the result of the hand to the user.
+
+
+
+

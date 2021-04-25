@@ -702,8 +702,54 @@ Further information surrounding closing a repository can be found [here](https:/
  
 Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
+### Content
 
+* [Code Institute](https://codeinstitute.net/): Their sample [README.md](https://github.com/Code-Institute-Solutions/SampleREADME) was used as a design guide for my ReadMe file.
+* [Markdown help](https://guides.github.com/features/mastering-markdown/#) for this ReadMe documentation.
+* Code Institutes [pre-installed gitpod repository](https://github.com/Code-Institute-Org/gitpod-full-template).
+* Continuous rotation documentation help on the keyframes rotation sourced from [here](https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously).
+* The game result pulse effect was sourced from the [following](https://css-tricks.com/almanac/properties/a/animation/).
+* Understanding relating to audio insertion was sourced at the [following](https://www.codegrepper.com/code-examples/javascript/how+to+add+sound+javascript).
+* Responsive image at the top of the ReadMe file is from [Am I Responsive](http://ami.responsivedesign.is/).
 
+### Media
 
+#### W3 schools emojis
+* Rock - [link](https://www.w3schools.com/charsets/tryit.asp?deci=129307&decitype=36)
+* Paper - [link](https://www.w3schools.com/charsets/tryit.asp?deci=9995&decitype=36)
+* Scissors - [link](https://www.w3schools.com/charsets/tryit.asp?deci=129310&decitype=36)
 
+#### Font Awesome
+* Plus Sign - [link](https://fontawesome.com/icons/plus-square?style=solid)
+* Minus Sign - [link](https://fontawesome.com/icons/minus-square?style=solid)
 
+#### Images Used
+
+* Hero image from vecteezy.com - [link](https://www.vecteezy.com/vector-art/691500-rock-paper-scissors-vector-icons) and author credit: @nightwolfdezines
+* Loading image from shutterstock - [link](: https://www.shutterstock.com/image-vector/rock-paper-scissors-icons-isolated-vector-700112323) and author credit: @Sudowoodo
+
+#### Spinner/Favicon creation
+* Spinner creation at loading.io: [link](https://loading.io/)
+* Favicon creation at favicon.io: [link](https://favicon.io/favicon-converter/)
+
+#### Sound effects
+* On the overall win loss from mixkit.co - [link](https://mixkit.co/free-sound-effects/)
+* On each hand - my own midlands accent
+
+#### Emoji smileys/trophys
+* Smileys from W3 schools - [link](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
+* Trophy on lose - [link](https://www.compart.com/en/unicode/U+1F3C6)
+* Trophy on win - [link](https://www.compart.com/en/unicode/U+1F44F)
+* Win/lose/draw hand text emoji from W3 schools - [link](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
+
+### Code
+* Continuous rotation documentation help on the keyframes rotation sourced from [here](https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously).
+* The game result pulse effect was sourced from the [following](https://css-tricks.com/almanac/properties/a/animation/).
+* Understanding relating to audio insertion was sourced at the [following](https://www.codegrepper.com/code-examples/javascript/how+to+add+sound+javascript).
+* Support for creating the ReadMe file linked table of content: [here](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) and [here](https://www.setcorrect.com/portfolio/work11/).
+* [jQuery](https://jquery.com/) - Used as part of JavaScript information architecture.
+
+### Acknowledgements
+
+* My mentor Can Sucullu for all the support during the project.
+* Tutor support at Code Institute for their support.

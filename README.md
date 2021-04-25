@@ -457,4 +457,31 @@ The 3 options of rock/paper/scissors are large clickable buttons, and using Java
 Further, both the “main menu” and “reset game” buttons at the top of the game page do as described when they are clicked. See attached for a [diagram](assets/rm_files/diagram.pdf) of the game logic.
 
 
+## Technology and Languages used
+
+### Languages
+
+*	[HTML5](https://en.wikipedia.org/wiki/HTML5)
+*	[CSS3](https://en.wikipedia.org/wiki/CSS)
+*	[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries and Programmes
+
+[jQuery](https://jquery.com/)
+Used as part of JavaScript information architecture.
+
+[Font Awesome](https://fontawesome.com/)
+Used to create the streaming platform icons, the social site icons and the console icons.
+
+[GitHub](https://github.com/)
+Used to store projects code upon Git push.
+
+[Git](https://en.wikipedia.org/wiki/Git)
+Used for version control through the Gitpod terminal and the Git add/commit/push action sequence.
+
+[Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/word)
+Used for designing of the wireframes as I am completing this project on my work laptop with no access to Balsamiq.
+
+[Google fonts](https://fonts.google.com/)
+Used to add the Lato font and related font weights to the CSS style file using the @import url function. To improve site load times, this file is loaded into the head element of the HTML pages and backed up by using sans-serif in CSS.
 

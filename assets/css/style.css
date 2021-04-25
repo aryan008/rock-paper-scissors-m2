@@ -336,6 +336,13 @@ https://css-tricks.com/almanac/properties/a/animation/---*/
 }
 
 @media only screen and (max-width:796px) {
+    #introduction--div--heading{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 8vh;
+    }
+    
     .scoreboard {
         width: 50%;
         margin-left: 25%;

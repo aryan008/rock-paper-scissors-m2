@@ -97,7 +97,12 @@ The site is to achieve the following goals:
 6.	Creates a positive experience for the user using colour, imagery and layout
 7.	To display the content in a culturally appropriate attested to the audience it is aimed at
 
-
+## Developer goals
+As the developer, the site is to achieve the following goals:
+1.	Mar the goals of the site owner and user together
+2.	Create a positive experience for both parties using the specifications required by both parties
+3.	Achieve responsive design across all devices
+4.	Utilize the combination of HTML, CSS & JavaScript to enhance the experience of the user and site owner
 
 
 

@@ -287,6 +287,47 @@ The following characteristics per the article are manipulated (__article narrati
 *	__Texture and Style – Richer textures stand out over flat ones.__ _As noted in the typography section._
 
 
+#### Features implemented
+##### Welcoming Page
+*	The site landing/welcoming page welcomes the user to the RPS game, demonstrating that RPS is the outcome of the site
+*	The navigation displays a “call to action” for the user to click to start the process of playing the game after selecting the number of “best of” games to be played
+*	There is a clear state change once the user clicks the “Let’s Play” button
+
+##### Loading Page
+*	The loading page displays a loading gif as well as a spinning image of RPS
+*	Text is displayed the user that the game is loading
+*	The loading page acts as a bridge between user input and the gameplay – which is highly common in gaming
+
+##### Game Page
+*	The “New Game/Reset” and “Back to Main Menu” buttons allow seamless navigation of the user through the site
+*	On a win, the border of your chosen hand goes green momentarily. If you lose, it goes red. If you draw, it goes yellow – applied to the scoreboard also
+*	Audio of “rock, paper, scissors, shoot” is heard at the start of each hand once the button is chosen
+*	After the “first to X” wins, a state change occurs with a section that you won/lost is given to the user and the score is automatically reset to zero
+*	An incrementing scoreboard is present to the user
+
+##### Bespoke Styling Features - Transitions
+*	Throughout the site, the mouse pointer changes to cursor when it is hovered over any clickable element for the user to interact with
+*	On the welcoming page, there is a transition size effect on the user’s call to action buttons
+*	On the welcoming page, there is a transition colour effect on the user’s call to action buttons
+*	The colour change to the scoreboard/buttons has a show/hide effect – only present for one second
+*	Once the game number/Let’s play/Main menu buttons are chose, a fade effect comes in to display the relevant content to the user
+
+##### Colours & Fonts
+*	Background colour is set using a dark style as noted in the colour section, displaying a gaming approach feel to the user
+*	Font colour is set in contrast to the background. This gives the effect of user-friendly-readability and gives the “pop” sensation of text overlapping the dark background
+*	Lato is used as the playful text of choice for the site, providing a sense of warmth to the user, while the strong structure provides stability and seriousness.
+
+##### Layout
+*	The site’s page is structured visually (font/colouring/areas) consistently throughout after each click by the user, creating a common theme for the site. The hierarchy presented tells the user extremely quickly where to look on a page, where to click and how to navigate the playing of the game.
+
+##### Game interactive buttons
+*	Allows the user to select the “best of X” games to play against the computer, which carries through to the playing of the game
+*	The “Let’s Play” button signifies that the game is to start very shortly as the loading page beings
+*	The reset/main menu buttons provide a clear CTA to the user
+*	The rock/paper/scissors buttons used for gameplay have an unambiguous size/style to pop to the user to click on one of them to play the game 
+
+##### In game audio
+*	Audio is played at the beginning of every hand (“Rock, Paper, Scissors, Shoot!”) as well as at the end of the overall game – either playing a “winning” sound or “losing” sound as appropriate.
 
 
 

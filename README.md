@@ -329,5 +329,48 @@ The following characteristics per the article are manipulated (__article narrati
 ##### In game audio
 *	Audio is played at the beginning of every hand (“Rock, Paper, Scissors, Shoot!”) as well as at the end of the overall game – either playing a “winning” sound or “losing” sound as appropriate.
 
+#### Features left to implement
+*	The ability for two independent players to play against each other on different devices
+*	Have a “save progress” function, whereby the user can see their highest score achieved whilst playing against the computer
+*	Have the images on the screen move up/down similar to real life at the beginning of each hand
+
+
+## Design & UX – How do they come together?
+
+### User goals
+
+User Goal | Feature(s)/ Content in response | Goal Met?
+-------- | --------- | --------
+(1)|	Colour/Font/Layout structure. Responsive button elements. Clear call to action.|	Yes
+(2)|	RPS displayed on initial landing page.|	Yes
+(3)|	Once the user clicks the game button “Let’s play”, content is presented to the user via a JavaScript state change.|	Yes
+(4)|	Colour/Font/Layout structure.|	Yes
+(5)|	Responsive state changes depending on win/lose/draw – see Information section architecture below.|	Yes
+(6)|	Clear CTA for the user, including transition changes on where to click to progress through the site.|	Yes
+(7)|	Game reset/New game feature added – visible during playing the game.|	Yes
+(8)|	Incremental scoreboard added - visible during playing the game.|	Yes
+(9)|	Clear contrast effect between background & foreground text/images as well as coloured flashes at the end of each hand.|	Yes
+(10)| User can choose the “best of X” on the landing page, and navigate back it from the game screen.| Yes
+
+### Site owner goals
+
+User Goal | Feature(s)/ Content in response | Goal Met?
+-------- | --------- | --------
+(1)|	Clear call to action for the user to click the “Let’s Start” and a new game will begin. Reset game feature also present.|	Yes
+(2)|	Pre-game, the rules of the game and a link to its history are displayed to the user.|	Yes
+(3)|	As per the informational architecture section, JavaScript is used to display clear results of each hand played to the user as well as an incremental scoreboard.|	Yes
+(4)|	Responsive design build using media queries in css. Tested as part of testing section below.|	Yes
+(5)|	As above point (3).|	Yes
+(6)|	Clear contrast effect between background & foreground text/images, including minimal design as noted in the outset|	Yes
+(7)| As above point (6).| Yes
+
+### Designer goals
+
+User Goal | Feature(s)/ Content in response | Goal Met?
+-------- | --------- | --------
+(1)|	Noted above.|	Yes
+(2)|	Noted above.|	Yes
+(3)|	Noted above.|	Yes
+(4)|	Noted above– JavaScript features noted below.|	Yes
 
 

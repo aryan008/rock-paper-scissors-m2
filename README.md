@@ -391,6 +391,7 @@ CSS and media queries were used in the style.css file to make a responsive web a
 *	max-width:562px
 *	max-width:460px
 *	max-width:400px
+
 _Note that as part of response testing in the testing section below, the above CSS media rules passed all review by the developer._
 
 #### Hover effects
@@ -399,6 +400,43 @@ CSS was used that a transition was present on all buttons that the user could in
 #### Animation effects
 CSS was used across both the hero image and the spinning loading page image to convey to the user a feel of “gaming”, as well as the fact that these images should not be clicked. The hero image acts as a “coin flip” due to the nature of RPS, and the spinning image often occurs in professional games as the games are loading.
 Keyframes animation was present using CSS as the user played the game – depending on if the user won, lost or drew a hand, the game buttons and scoreboard would light up momentarily green, red or yellow respectively. This is to provide active feedback on the result of the hand to the user.
+
+### How JS created an experience
+The JavaScript code created by the site designer is broken down into separate, re-usable functions as necessary and is contained within the below JavaScript Code Library files. Note that the key features provided to the user are detailed below where appropriate as an actual feature, not just JS logic. See the links provided to the JS files for detailed breakdown of the code and their respective uses.
+
+JavaScript audio Library - [link](assets/js/audio.js)
+*	“Rock, paper, scissors, shoot!” is heard at the beginning of each hand.
+*	A winning sound used when the user beats the computer on an overall basis.
+*	A losing sound used when the user loses to the computer on an overall basis.
+
+JavaScript computer-result Library - [link](assets/js/computer-result.js)
+
+JavaScript game-launch Library - [link](assets/js/game-launch.js)
+*	When the user clicks on the button pertaining to the number of games they want to play, this sets the overall bar for the “best of X” series – the user will play against the computer up to that number of games
+*	When the user clicks on the button pertaining to the number of games they want to play, the 4 button choices fade from the view of the user and the “Let’s Play!” button comes in
+
+JavaScript gameplay Library - [link](assets/js/gameplay.js)
+
+JavaScript history Library - [link](assets/js/history.js)
+*	The read more/read less buttons that the user clicks show/hide respectively the history of the game and a href to Wikipedia where the user can click
+
+JavaScript landing Library - [link](assets/js/landing.js)
+*	Because the game is played in a single index.html file, the landing library effects act as a document load gateway so the user only sees specific information on the initial site page load. The effect of this is that they must click 2 separate buttons in order to play the game.
+
+JavaScript main-menu Library - [link](assets/js/main-menu.js)
+*	User can click this button to return to the main menu they were at on the initial site load
+
+JavaScript reset-game Library - [link](assets/js/reset-game.js)
+*	User can click this button to reset the game scores to 0-0 in the middle of the game
+
+JavaScript scores Library - [link](assets/js/scores.js)
+*	The scoreboard will increment in a +1 fashion to either the user or the computer at the end of each hand
+*	Both the scoreboard and the game buttons will light up momentarily with different colours on a win/loss/draw
+*	When either the user or the computer wins the overall game as defined by the user in the game-launch library, text is displayed with an image for congratulations/commiserations
+
+JavaScript win-lose-draw Library - [link](assets/js/win-lose-draw.js)
+*	At the end of each hand, text is displayed below the scoreboard telling the user both what they chose and what the computer picked
+Each individual library has been fully documented adhering to the following JSDoc framework.
 
 
 

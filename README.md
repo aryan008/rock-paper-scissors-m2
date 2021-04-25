@@ -235,4 +235,39 @@ Lato is used as the main font on the site, as imported through Google Fonts. San
 Further, in this [blog post](https://www.justinmind.com/blog/best-google-web-fonts-website/), Lato is ranked as #1 on the “30 best Google Fonts for your website”. It is known that the designer of this font, Lukasz Dziedzic, “created Lato to work transparently in body text and also to stand out individually when used in larger-sized titles”.
 With these descriptions in mind, Lato is used for the game design/accompanying text.
 
+#### Colour Scheme
+The main colours used on the site are a shade of black and white:
+* Background: rgb(32, 32, 32) (black)
+* Text colour: rgb(255,255,255) (white)
+The reason for this is to achieve a “pop” effect on the icons and text presented, making them appeal more to the screen reader. 
 
+According to [designwebkit](https://designwebkit.com/design/gaming-website-templates-professional-tips-build-game-website/#:~:text=As%20you%20may%20notice%2C%20most,brown%2C%20grey%2C%20and%20khaki.):
+
+_“Most popular gaming websites use dark colour scheme for their websites to create a mystic and engaging ambiance. The most popular colours for such websites are black, brown, grey, and khaki”._
+
+Further colourings used on the site:
+* Href links on the hover: rgb(43, 107, 226) (slate blue as per norms)
+* Box-shadow opacity on both the hero image and vector spinning image of 0.877 (dark purple for gaming feel)
+* Box-shadow opacity on both the game choice buttons and Let’s Play button of 0.877 (contrast white for user CTA)
+
+Flash colourings added on a win/draw/loss to the scoreboard:
+* Win - rgb(49, 245, 31) (Green)
+* Loss - rgb(226, 77, 77) (Red)
+* Draw - rgb(255, 255, 0) (Yellow)
+* 
+Flash colourings added on a win/draw/loss to the game buttons of rock/paper/scissors:
+* Win - rgb(49, 245, 31) (Green)
+* Loss - rgb(226, 77, 77) (Red)
+* Draw - rgb(255, 255, 0) (Yellow)
+
+Keyframes were applied to all colourings here to add a scale animation to the button the class affected by it. The keyframes had a 1.5s ease-in-out timing function and went from scale 1.05->0.95->1.
+Documentation on the help with the implementation of these keyframe features are sourced [here](https://css-tricks.com/almanac/properties/a/animation/---*/).
+
+#### Imagery
+On the landing page, a hero image is displayed as a vector icon of the RPS game. CSS is used to add a coin-flip effect to this picture, as RPS is a game of chance.
+On the loading page, a similar vector image is displayed and rotates in a circular 360degree manner. The help for creation of this flip is sourced at [this Stack Overflow post](https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously).
+A loading gif is also created during the loading page, which was created from scratch on spinner.io to match the background colour perfectly.
+The site uses three separate images during the playing of the game in the button hand choices. These images correspond to the Rock/Paper/Scissor icons that are associated with the game; hence they will be familiar to the user. 
+The use of emoji’s – either smiley faces or trophy – are displayed throughout the site as a form of feedback loop to the user on each hand.
+Font Awesome is used to display emoticons on the landing page.
+See the credits section of this ReadMe file for all appropriate accreditation of the imagery used.

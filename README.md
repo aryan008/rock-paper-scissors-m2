@@ -505,6 +505,30 @@ Each JavaScript Code Library file was validated using the JSHint static code ana
 No fixes from the above test were necessary on review of the results.
 
 
+### Accessibility Testing
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) and [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) were used to test the site's accessibility.
+
+See the below to review the screenshots of successful accessibility testing on the site for Google Lighthouse.
+
+* Lighthouse mobile: [link](assets/rm_files/google-lighthouse-mobile.PNG)
+* Lighthouse desktop: [link](assets/rm_files/google-lighthouse-desktop.PNG)
+
+[WAVE](https://developers.google.com/web/tools/lighthouse) Web Accessibility. For the WAVE specific testing live link, click on the following.
+For the static results, see [here](assets/rm_files/wave-result.PNG).
+
+No known issues were present on either of these accessibility tests.
+
+### Responsive Testing
+The site's repsonsiveness was tested using [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly) and [Responsinator](https://www.responsinator.com/).
+
+See the following [link](assets/rm_files/googlr-mobile-friendly-tester.PNG) to review the screenshot of successful responsive testing of the site for Google's Mobile Friendly Tester.
+See the folling [link](https://search.google.com/test/mobile-friendly?id=2KHHLDXx5JS6ztmWjdr9Nw) for the live test of Google's Mobile Friendly Tester.
+
+To review the Responsinator testing, click [here](https://www.responsinator.com/?url=https%3A%2F%2Faryan008.github.io%2Fgameshow-m1%2F). As part of responsive testing, the site was tested across all device sizes per this link and no issues were found.
+
+[Chrome devtools device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode) was also used to test the site’s responsiveness. Manual testing was also performed via resizing the browser to review for issues at varying browser screen sizes.
+No known issues were present on these responsive tests.
 
 
 

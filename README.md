@@ -254,7 +254,7 @@ Flash colourings added on a win/draw/loss to the scoreboard:
 * Win - rgb(49, 245, 31) (Green)
 * Loss - rgb(226, 77, 77) (Red)
 * Draw - rgb(255, 255, 0) (Yellow)
-* 
+
 Flash colourings added on a win/draw/loss to the game buttons of rock/paper/scissors:
 * Win - rgb(49, 245, 31) (Green)
 * Loss - rgb(226, 77, 77) (Red)
@@ -404,6 +404,8 @@ Keyframes animation was present using CSS as the user played the game – depend
 ### How JS created an experience
 The JavaScript code created by the site designer is broken down into separate, re-usable functions as necessary and is contained within the below JavaScript Code Library files. Note that the key features provided to the user are detailed below where appropriate as an actual feature, not just JS logic. See the links provided to the JS files for detailed breakdown of the code and their respective uses.
 
+See the attached [link](testing_results.md) for the screenshot results of JSHint on the below Javascript code. This is also noted in the testing section of this README file.
+
 JavaScript audio Library - [link](assets/js/audio.js)
 *	“Rock, paper, scissors, shoot!” is heard at the beginning of each hand.
 *	A winning sound used when the user beats the computer on an overall basis.
@@ -489,6 +491,7 @@ Used to add the Lato font and related font weights to the CSS style file using t
 
 ### Code validation
 The W3C Markup Validator, W3C CSS Validator and JSHint JavaScript Validator Services were used to validate the project to ensure there were no errors in the project.
+See the attached [link](testing_results.md) for the screenshot results of the code validation section.
 
 [W3C Markup Validator](https://validator.w3.org/) - [Results screenshot](assets/rm_files/html-validator.PNG)
 
@@ -507,6 +510,8 @@ No fixes from the above test were necessary on review of the results.
 
 ### Accessibility Testing
 
+See the attached [link](testing_results.md) for the screenshot results of the Accessibility testing section.
+
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) and [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) were used to test the site's accessibility.
 
 See the below to review the screenshots of successful accessibility testing on the site for Google Lighthouse.
@@ -521,6 +526,7 @@ No known issues were present on either of these accessibility tests.
 
 ### Responsive Testing
 The site's repsonsiveness was tested using [Google's Mobile Friendly Tester](https://search.google.com/test/mobile-friendly) and [Responsinator](https://www.responsinator.com/).
+See the attached [link](testing_results.md) for the screenshot results of the Responsive testing section.
 
 See the following [link](assets/rm_files/googlr-mobile-friendly-tester.PNG) to review the screenshot of successful responsive testing of the site for Google's Mobile Friendly Tester.
 See the folling [link](https://search.google.com/test/mobile-friendly?id=2KHHLDXx5JS6ztmWjdr9Nw) for the live test of Google's Mobile Friendly Tester.

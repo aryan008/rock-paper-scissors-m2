@@ -144,7 +144,7 @@ Is the content relevant? |	Acting as a game, only relevant RPS content will be d
 Can we provide content in an intuitive way? |	The site will have a series of buttons and, using JavaScript, will feel interactive to the site user
 Is the technology appropriate? |	Since RPS is a rules-based game, a combination of CSS and JavaScript will be used for applicable user experience
 Who is my target audience? |	People who are interested in learning about RPS and/or want to play the game
-Product considerations |	No overload of content/imagery on the site - as per appropriation, RPS is a simple rules-based game and hence the content should reflect that. Allow clear feedback loops on the result of each hand played and an overall winner. Navigation/layout must be easy across all devices for the users.
+Product considerations |	No overload of content/imagery on the site - as per appropriation, RPS is a simple rules-based game and hence the content should reflect that. Allow clear feedback loops on the result of each hand played and an overall winner. Navigation/layout must be easy across all devices for the users
 
 ##### Strategy feasibility scoping
 Opportunity |	Importance |	Feasibility
@@ -178,7 +178,7 @@ Moveable images for each hand – using button animation
 #### Structure Plane
 Question |	Response for site design
 -------- | ---------
-How do I navigate easily? |	Pre-game: Clicking on the allocated buttons (game number choice & Lets Play). During game: New game/reset button and back to main menu button 
+How do I navigate easily? |	_Pre-game_: Clicking on the allocated buttons (game number choice & Lets Play). _During game_: New game/reset button and back to main menu button 
 How is the information presented? |	Using gaming style colours/features and minimal text content that allow the user to achieve their goals. Dark background to light interface for a clear separation of colours to the users. Clear feedback on the result of each hand played. The buttons on the landing page have glow affects, enticing the users to click on them.
 State changes |	When the user clicks the number of games they want to play, JavaScript is used to display the “Let’s Play” button (this is often used in gaming as a 2nd state change). When the user clicks “Let’s Play”, JavaScript is used to start the game via a loading screen. There is a clear state change at the end of each hand through various JavaScript functions – colour change, scoreboard incrementing, etc. An overall winner/loser section takes over the entire screen once the user/computer reaches the specified number of wins.
 Is the site consistent? |	Correct styling and fonts are applied throughout the site. Colour flashing on the scoreboard and buttons on the end of each round of hands is kept consistent.
@@ -230,9 +230,9 @@ Hence, I want a site where I can:
 
 #### Typography
 Lato is used as the main font on the site, as imported through Google Fonts. Sans-serif is used as the fallback font. According to an article on [perpetual media group](http://www.perpetualmediagroup.ca/tenbestfontsforprintandweb/):
-“The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.”
+_“The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness.”_
 
-Further, in this [blog post](https://www.justinmind.com/blog/best-google-web-fonts-website/), Lato is ranked as #1 on the “30 best Google Fonts for your website”. It is known that the designer of this font, Lukasz Dziedzic, “created Lato to work transparently in body text and also to stand out individually when used in larger-sized titles”.
+Further, in this [blog post](https://www.justinmind.com/blog/best-google-web-fonts-website/), Lato is ranked as #1 on the “30 best Google Fonts for your website”. It is known that the designer of this font, Lukasz Dziedzic, _“created Lato to work transparently in body text and also to stand out individually when used in larger-sized titles”_.
 With these descriptions in mind, Lato is used for the game design/accompanying text.
 
 #### Colour Scheme
@@ -266,7 +266,7 @@ Documentation on the help with the implementation of these keyframe features are
 #### Imagery
 On the landing page, a hero image is displayed as a vector icon of the RPS game. CSS is used to add a coin-flip effect to this picture, as RPS is a game of chance.
 On the loading page, a similar vector image is displayed and rotates in a circular 360degree manner. The help for creation of this flip is sourced at [this Stack Overflow post](https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously).
-A loading gif is also created during the loading page, which was created from scratch on spinner.io to match the background colour perfectly.
+A loading gif is also created during the loading page, which was created from scratch on spinner.io to match the rgb background colour of the site.
 The site uses three separate images during the playing of the game in the button hand choices. These images correspond to the Rock/Paper/Scissor icons that are associated with the game; hence they will be familiar to the user. 
 The use of emoji’s – either smiley faces or trophy – are displayed throughout the site as a form of feedback loop to the user on each hand.
 Font Awesome is used to display emoticons on the landing page.
@@ -343,7 +343,7 @@ User Goal | Feature(s)/ Content in response | Goal Met?
 -------- | --------- | --------
 (1)|	Colour/Font/Layout structure. Responsive button elements. Clear call to action.|	Yes
 (2)|	RPS displayed on initial landing page.|	Yes
-(3)|	Once the user clicks the game button “Let’s play”, content is presented to the user via a JavaScript state change.|	Yes
+(3)|	Once the user clicks the game button “Let’s play”, content is presented to the user via a JavaScript state change. How to play/history are located on the landing page|	Yes
 (4)|	Colour/Font/Layout structure.|	Yes
 (5)|	Responsive state changes depending on win/lose/draw – see Information section architecture below.|	Yes
 (6)|	Clear CTA for the user, including transition changes on where to click to progress through the site.|	Yes
@@ -392,7 +392,7 @@ CSS and media queries were used in the style.css file to make a responsive web a
 *	max-width:460px
 *	max-width:400px
 
-_Note that as part of response testing in the testing section below, the above CSS media rules passed all review by the developer._
+_Note that as part of response testing in the testing section below, the above CSS media rules passed all visual review by the developer._
 
 #### Hover effects
 CSS was used that a transition was present on all buttons that the user could interact with, as well as adding a cursor pointer to further engage the site user into clicking the button.

@@ -616,21 +616,44 @@ As part of commit #95 – fix the reset of the game scores at the end of each ga
 ### Testing User Stories from User Experience (UX) Section
 
 #### First-Time Visitor Goals
+
+*Note that the below user story screenshots are inserted where as to not overlap. All user story goals have been met.*
+
 As a first-time visitor of the site, I want:
 
 1.	_My impression of the site to be a positive experience_
 *	The colour/fonts and layout of the entire structure entice to play the game and click the buttons
 *	Clear call to action in clicking how many games to play as well as checking out the history
+
+_User story 1.1-1.2_:
+
+![User story 1.1-1.2](assets/rm_files/user-story-1.1-1.2.PNG)
+
 *	Animation CSS used to display gaming transition images and cursor elements
 *	Clear feedback loop on the game on how you are progressing, which is required in all games
+
+_User story 1.4_:
+
+![User story 1.4](assets/rm_files/user-story-1.4.PNG)
+
 2.	_To understand the main purpose of the site_
 *	RPS is displayed on the landing page
 *	The buttons to click to progress pop to the user
 *	The winning hand combinations are present
+
+_User story 2.2-2.3_:
+
+![User story 2.2-2.3](assets/rm_files/user-story-2.2-2.3.PNG)
+
 3.	_To provide relevant content related to RPS – how to play, the history of the game, etc._
 *	The winning hand combinations are present
 *	Clickable element to view the history of the game
 *	State changes as a result of where the user clicks
+
+_User story 3.3_:
+
+![User story 3.3](assets/rm_files/user-story-3.3.PNG)
+
 4.	_A clear and unambiguous layout_
 *	The colour/fonts and layout of the entire structure entice to play the game and click the buttons
 *	Clean layout – simple game, simple site
@@ -638,6 +661,11 @@ As a first-time visitor of the site, I want:
 *	Text displayed below the scoreboard is unique to the hand played
 *	Scoreboard incrementation at the end of each hand
 *	Colouring effects on the buttons/scoreboard depending on win/lose/draw
+
+_User story 5.1-5.3_:
+
+![User story 5.1-5.3](assets/rm_files/user-story-5.1-5.3.PNG)
+
 6.	_Easy navigation of the site_
 *	Clear call to action for the user on both the site landing page and game mode
 *	Cursor pointer effect on the clickable elements of the site
@@ -646,15 +674,29 @@ As a first-time visitor of the site, I want:
 *	Visible during playing of the game
 *	The “back to main menu” brings the user back to the landing page to choose another game type
 *	Automatic score reset at the end of each full game
+
+_User story 7_:
+
+![User story 7](assets/rm_files/user-story-7.PNG)
+
 8.	_To understand the score on the site clearly to see if I am winning_
 *	Incremental scoreboard added and updated appropriately at the end of each hand
 9.	_The colours, layout and feel of the site to be of a gaming nature as part of cultural appropriation_
 *	Clear contrast between background and foreground in terms of text and images
 *	Coloured flashes as appropriate at the end of each hand to the buttons/scoreboard
 *	Loading screen adds to the “gaming” effect most users would be familiar with
+
+_User story 9.3_:
+
+![User story 9.3](assets/rm_files/user-story-9.3.PNG)
+
 *	Coin flip image on the landing page speaks to the nature of RPS as a game
 10.	_To pick a “best of X” games to play and there be an overall winner_
 *	State change once the user reaches an “overall winner/loser”
+
+_User story 10_:
+
+![User story 10](assets/rm_files/user-story-10.PNG)
 
 #### Returning and Frequent Visitor Goals
 As a returning/frequent visitor of the site, I want:

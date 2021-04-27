@@ -472,9 +472,6 @@ Further, both the “main menu” and “reset game” buttons at the top of the
 [jQuery](https://jquery.com/)
 Used as part of JavaScript information architecture.
 
-[Font Awesome](https://fontawesome.com/)
-Used to create the streaming platform icons, the social site icons and the console icons.
-
 [GitHub](https://github.com/)
 Used to store projects code upon Git push.
 

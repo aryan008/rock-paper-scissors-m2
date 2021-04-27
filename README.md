@@ -1,6 +1,6 @@
 <h1 align = "center">Rock Paper Scissors</h1>
 
-View the live project at the following [link](https://https://aryan008.github.io/rock-paper-scissors-m2/).
+View the live project at the following [link](https://aryan008.github.io/rock-paper-scissors-m2/).
 
 ![See how the site looks across the devices](assets/rm_files/responsive.PNG)
 
